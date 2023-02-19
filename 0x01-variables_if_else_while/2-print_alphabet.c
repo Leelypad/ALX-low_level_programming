@@ -1,15 +1,18 @@
 #include <stdio.h>
+#include <stdlib>
 /**
-*main -prints alpha in lowercase
-*Return: Always 0 (Success)
+*main -main block
+Description: Prints alphabet in lowercase
+*Return: 0
 */
 int main(void)
 {
-char lc;
-for (lc = a; lc <= z; lc++)
+char c = 'a';
+while (c <= 'z')
 {
-putchar(lc);
+putchar(c);
+c++;
 }
-putchar(n);
+putchar('\n')
 return (0);
 }
