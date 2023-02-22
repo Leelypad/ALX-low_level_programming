@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *print_sign -prints the sign of a number
-@n: argument passed
+@n: the number to be checked for
 *Return: 1 if number is greater than zero
 *0 if number is zero
 *-1 if number is less than zero
